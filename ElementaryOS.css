@@ -1,0 +1,86 @@
+
+body {
+	font: 16px/1.4 "Bitstream Charter", sans-serif;
+	background: #FDF6E3;
+	color: #A8968E;
+	background-image: url(images/chromos.png);
+	background-position: 0px -50px;
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-color: #222;
+}
+
+em {
+	color: #DEDEDE;
+	margin: 37px 0px 70px 10px;
+}
+
+h1 {
+	color: white; 
+	font-family: "Open Sans";
+	font-size: 26px;
+	margin: 37px 0px 70px 10px;
+	font-weight: bold;
+}
+
+h1 a {
+	color: white; 
+	font-family: "Open Sans";
+	font-size: 26px;
+	margin: 37px 0px 70px 10px;
+	font-weight: bold;
+}
+
+h2.directhome {
+    font: normal 14px "Liberation Sans", "Open Sans", "Arial", sans-serif;
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-family:"ubuntu mono","Liberation Sans","serif";  
+	color:#4D4E53;
+	line-height: 130%;
+	text-align: right;
+}
+
+p.dialogue {
+    font: 16px/1.2 "ubuntu mono", "Arial", sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+a {
+	color: #4D4E53;
+	text-decoration: none;
+	font: 16px "ubuntu mono";
+}
+
+a:hover {
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+@media (max-width: 660px) {
+  h1 a {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 16px;
+  }
+  
+  body { 
+	background-image: url(images/chromos.png);
+	background-position: 0px -80px;
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+}
+
+}
+
+
+
